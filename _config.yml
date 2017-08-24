@@ -1,0 +1,44 @@
+# STUDENTS EDIT HERE
+# Replace "Student_repostory with your repository name"
+title: HCC Journal
+name: Student
+github_repository_name: student_repository
+github_repository_url: https://github.com/idia640/student_repository
+github_zip_url: https://github.com/idia640/student_repository/archive/master.zip
+repo: https://github.com/idia640/student_repository
+# END EDIT
+
+# Boilerplate for class journals (Instructor edited)
+github_owner_name: University of Baltimore IDIA 640
+github_owner_url: https://github.com/idia640
+branch: master
+description: IDIA 640 student journal for graded assignments
+show_downloads: true
+show_downloads: 1
+future: true
+
+# Jekyll config
+theme: jekyll-theme-minimal
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+include: ["_pages"]
+
+# Assets
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+permalink: pretty
+
+gems:
+- jemoji
+
+# Kramdown options
+# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html
+# kramdown:
+#   hard_wrap: true (already set to default)
