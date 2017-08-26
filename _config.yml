@@ -38,6 +38,9 @@ permalink: pretty
 gems:
 - jemoji
 
+plugins:
+  - jekyll-feed
+  
 # Kramdown options
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html
 # kramdown:
