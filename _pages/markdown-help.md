@@ -13,9 +13,9 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](../another-page) on this site. Look at the directory structure in your _site folder. "/another-page/" is at the same level as this page. The ".." is a shortcut that means, "go up one directory level". You can link multiple together as in '../../' to mean two levels higher. A link is further composed by adding "/" plus a directory or file.
 
-You can also simply refer to the location of a page by it's absolute location. A shortcut on your site is to use '{{ site.url }}' (which expands to {{ site.url }}) and then walk out the url to the location of your file. As an example, see how the squirrel image is linked below.
+You can also simply refer to the location of a page by it's absolute location. A shortcut on your site is to use '{{ site.baseurl }}' (which expands to {{ site.baseurl }}) and then walk out the url to the location of your file. As an example, see how the squirrel image is linked below.
 
-Look at the formatting below and compare to the markdown from the [source file linked here](https://github.com/idia640/hobbithill/edit/master/_pages/markdown-help.md) in your repository.
+Look at the formatting below and compare to the markdown from the [source file linked here]({{github_repository_url}}/edit/master/_pages/markdown-help.md) in your repository.
 
 There should be whitespace between paragraphs.
 
@@ -149,9 +149,9 @@ This is some text.[^1]. Other text.[^footnote].
 
 ### Small image from repository
 
-![]({{site.url}}/assets/img/squirrel.jpg)
+![]({{site.baseurl}}/assets/img/squirrel.jpg)
 
-Note the use of '{{site.url}}' which reference the base url of this site and then followed by 'assets/img/' directories and image file.
+Note the use of '{{site.baseurl}}' which reference the base url of this site and then followed by 'assets/img/' directories and image file.
 
 ### Large image
 
@@ -159,9 +159,9 @@ Note the use of '{{site.url}}' which reference the base url of this site and the
 
 ### Link to a downloadable presentation from repository
 
-[My presentation]({{site.url}}/public/blank_presentation.pptx)
+[My presentation]({{site.baseurl}}/public/blank_presentation.pptx)
 
-This document is in '{{site.url}}/public/'.
+This document is in '{{site.baseurl}}/public/'.
 
 ### Embed YouTube video (plain old HTML)
 

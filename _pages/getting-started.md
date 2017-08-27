@@ -24,7 +24,7 @@ The private repository created for you under this course is free. When this cour
 
 Now work through the following pages so that you will better understand how to work within your repository.
 
-- [GitHub Basics]({{site.url}}/{{site.github_repository_name}}/pages/getting-started/github-basics)
-- [GuitHub Markdown]({{site.url}}/{{site.github_repository_name}}/pages/getting-started/markdown-basics)
-- [GitHub Issues]({{site.url}}/{{site.github_repository_name}}/pages/getting-started/using-issues)
-- [More Advanced Topics]({{site.url}}/{{site.github_repository_name}}/pages/getting-started/advanced-topics)
+- [GitHub Basics]({{site.baseurl}}/pages/getting-started/github-basics)
+- [GuitHub Markdown]({{site.baseurl}}/pages/getting-started/markdown-basics)
+- [GitHub Issues]({{site.baseurl}}/pages/getting-started/using-issues)
+- [More Advanced Topics]({{site.baseurl}}/pages/getting-started/advanced-topics)

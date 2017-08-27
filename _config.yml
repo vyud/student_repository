@@ -7,6 +7,7 @@ github_repository_url: https://github.com/idia640/student_repository
 github_zip_url: https://github.com/idia640/student_repository/archive/master.zip
 repo: https://github.com/idia640/student_repository
 url: https://idia640.github.io/student_repository
+baseurl: /student_repository
 # END EDIT
 
 # Boilerplate for class journals (Instructor edited)
