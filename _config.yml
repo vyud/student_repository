@@ -6,6 +6,7 @@ github_repository_name: student_repository
 github_repository_url: https://github.com/idia640/student_repository
 github_zip_url: https://github.com/idia640/student_repository/archive/master.zip
 repo: https://github.com/idia640/student_repository
+url: https://idia640.github.io/student_repository
 # END EDIT
 
 # Boilerplate for class journals (Instructor edited)
@@ -40,7 +41,7 @@ gems:
 
 plugins:
   - jekyll-feed
-  
+
 # Kramdown options
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html
 # kramdown:
