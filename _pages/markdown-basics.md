@@ -9,7 +9,7 @@ permalink: /pages/getting-started/markdown-basics
 Markdown is an easy way to format text on GitHub. GitHub recognizes any document with the suffix of '.md' as a markdown document.
 
 The
-[markdown help page]({{site.baseurl}}/pages/markdown-help){:target="_blank"} in your repository demonstrates what will work in your repository. Read through the help page and bring up your source view so you can see both. There is a [scratchpad]({{site.baseurl}}/pages/scratchpad/){:target="_blank"} in your [_pages]({{github_repository_url}}/tree/master/_pages/scratchpad.md){:target="_blank"} directory for you to play with.
+[markdown help page]({{site.baseurl}}/pages/markdown-help){:target="_blank"} in your repository demonstrates what will work in your repository. Read through the help page and bring up your source view so you can see both. There is a [scratchpad]({{site.baseurl}}/pages/scratchpad/){:target="_blank"} in your [_pages]({{site.repo}}/tree/master/_pages/scratchpad.md){:target="_blank"} directory for you to play with.
 
 In [Practice Assignment]({{site.baseurl}}/2017/07/17/practice-assignment/){:target="_blank"}, the next post in your blog, you get to practice what you've learned.
 
