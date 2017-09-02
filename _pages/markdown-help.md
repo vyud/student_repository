@@ -15,7 +15,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 You can also simply refer to the location of a page by it's absolute location. A shortcut on your site is to use '{{ site.baseurl }}' (which expands to {{ site.baseurl }}) and then walk out the url to the location of your file. As an example, see how the squirrel image is linked below.
 
-Look at the formatting below and compare to the markdown from the [source file linked here]({{github_repository_url}}/edit/master/_pages/markdown-help.md) in your repository.
+Look at the formatting below and compare to the markdown from the [source file linked here]({{site.repo}}/edit/master/_pages/markdown-help.md) in your repository.
 
 There should be whitespace between paragraphs.
 
